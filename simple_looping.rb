@@ -19,13 +19,17 @@ def times_iterator(1..7)
 end
 
 def while_iterator(number_of_times)
+  while number_of_times do |counter|
+    counter += 4
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
-end
+end 
 
 def until_iterator(number_of_times)
+  x = 0 
+  until number_of_times do |x|
+    x = 1 
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
